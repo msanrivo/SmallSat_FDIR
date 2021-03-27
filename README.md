@@ -1,7 +1,7 @@
 # SmallSat_FDIR
 ### Fault Detection, Isolation, and Recovery (**FDIR**) of Attitude and Orbital Control System (**AOCS**).
 ---
-A Cubesat simulator in MATLAB Simulink to implement a attitude and orbit control 
+A Cubesat simulator in MATLAB Simulink 
 ## Paper 
 ---
 __Design of a Model-Based Failure Detection Isolation and Recovery System for Cubesats__ _(Javier Sanz Lobo et al.)_
