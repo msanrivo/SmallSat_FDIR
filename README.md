@@ -1,9 +1,9 @@
 # SmallSat_FDIR
 ### Fault Detection, Isolation, and Recovery (**FDIR**) of Attitude and Orbital Control System (**AOCS**).
 ---
-A Cubesat simulator in MATLAB Simulink which provides an interactive control panel for simulating cubesat missions and experiment with on board sensor modules for navigation and attitude control along with implementation of FDIR (Fault detection and Isolation Algorithms). It also provides intuitive visualizations for Groundtracking and 3D orbit models. I also supports a number of data plotting and logging features to aid research and development.   
+A CubeSat simulator in MATLAB Simulink which provides an interactive control panel for simulating CubeSat missions and experiment with on board sensor modules for navigation and attitude control along with implementation of FDIR (fault detection and Isolation Algorithms). It also provides intuitive visualizations for Groundtracking and 3D orbit models. It also supports a number of data plotting and logging features to aid research and development.   
 
-The satellite design is based on a  **2U Cubesat (Dim : 10x20x10 cm weight: 2.66 kg)** Currently the model has support for GNSS(GPS), Startracker and IMU (Gyro) sensors which are simulated appropriately taking into account random stochastic processes. (based on Gaussian noise models tuned with statistical parameters from manufactures of real cubesat components) This guides a 6 DoF Navigation System that takes in sensor data and provides control signals for guidance  
+The satellite design is based on a  **2U CubeSat (Dim : 10x20x10 cm weight: 2.66 kg)** Currently the model has support for GNSS(GPS), Startracker and IMU (Gyro) sensors which are simulated appropriately taking into account random stochastic processes. (based on Gaussian noise models tuned with statistical parameters from manufactures of real CubeSat components) This guides a 6 DoF Navigation System that takes in sensor data and provides control signals for guidance  
 
 ![2U Cubesat](https://i.imgur.com/eHx8vac.png)
 
