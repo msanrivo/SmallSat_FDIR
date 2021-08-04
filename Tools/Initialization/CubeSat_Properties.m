@@ -1,19 +1,19 @@
 %% Size 
 b      = 0.1;                                                               % Side length [m] 
-A      = [2*b^2; 2*b^2; b^2; b^2; 2*b^2; 2*b^2];                            % Area [m^2]
-d_face = [b/2; b/2; b; b; b/2; b/2];                                        % Distance to geometric center of the face from origin
+%A      = [2*b^2; 2*b^2; b^2; b^2; 2*b^2; 2*b^2];                            % Area [m^2]
+%d_face = [b/2; b/2; b; b; b/2; b/2];                                        % Distance to geometric center of the face from origin
 
 %% Mass
 % Thoretical values
 m   = 1.33*2;                                                               % Mass [kg]
 
-Ixx = 1/12*m*(b^2+(2*b)^2);
-Iyy = 1/12*m*(b^2+b^2);
-Izz = 1/12*m*(b^2+(2*b)^2);
+%Ixx = 1/12*m*(b^2+(2*b)^2);
+%Iyy = 1/12*m*(b^2+b^2);
+%Izz = 1/12*m*(b^2+(2*b)^2);
 I   = [Ixx 0   0;                                                           % Inertia Tensor [kg·m^2]
        0   Iyy 0; 
        0   0   Izz];
-   
+    
 CG = [0; 0; 0];                                                             % Initial center of gravity in body frame
 
 % To include uncertainty in the mass properties

@@ -8,11 +8,11 @@ w_Earth = 7.292115e-5;                                                      % Ea
 
 %% Define the spacecraft orbit
 % Calculate the Sun-Synchronous Orbit(SSO)
-n_orbits       = 15.5;                                                      % Orbits in a day (24 hours)
-Initial_Date   = [2019,03,01,12,00,00];                                     % [Year, Month, Day, Hour, Minute, Second] Change it manually in Atmospheric Block!!!
-Spring_Equinox = [2019,03,20,21,58,00];
-Hour           = 12;                                                        % Local Hour (Noon-Midnight)
-e              = 0;                                                         % Eccentricity
+% n_orbits       = 15.5;                                                      % Orbits in a day (24 hours)
+%Initial_Date   = [2019,03,01,12,00,00];                                     % [Year, Month, Day, Hour, Minute, Second] Change it manually in Atmospheric Block!!!
+%Spring_Equinox = [2019,03,20,21,58,00];
+%Hour           = 12;                                                        % Local Hour (Noon-Midnight)
+%e              = 0;                                                         % Eccentricity
 
 [a_SSO, RAAN_SSO, i_SSO, e_SSO] = SSO(Re,mu,J2,n_orbits,...
                                        Initial_Date,Spring_Equinox,Hour,e);
@@ -61,9 +61,9 @@ mu_Moon = 4.9048695e12;                                                     % [m
 mu_Sun  = 1.32712440018e20;                                                 % [m^3/s^2]
 
 % Perturbations (On-->1; Off-->0)                                                                
-Env_J2    = 1;
-Env_Sun   = 1;
-Env_Moon  = 1;
-Env_Drag  = 1;
-Env_TGG   = 1;
-Env_TMag  = 1;
+%Env_J2    = 1;
+%Env_Sun   = 1;
+%Env_Moon  = 1;
+%Env_Drag  = 1;
+%Env_TGG   = 1;
+%Env_TMag  = 1;
